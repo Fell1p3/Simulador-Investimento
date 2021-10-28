@@ -20,6 +20,7 @@ while True:
         valorbruto = bruto + total
         IR = (15/100)
         b3 = (0.25/100) * 3
+   
     else:
         investir = float(input("Qual o valor você quer investir?:"))
         mês = float(input("Se você for investir todo o mês, qual o valor?:"))
@@ -52,4 +53,4 @@ while True:
     opcao = str(input("Deseja realizar outra simulação? s/n: "))
     if opcao == 'n':
         break
-print ("Progrma Encerrado")
+print ("Programa Encerrado")
