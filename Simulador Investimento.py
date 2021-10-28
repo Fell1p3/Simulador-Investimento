@@ -37,6 +37,7 @@ while True:
     b3total = (valorbruto - total) * b3
 
     valorliquido = valorbruto - (IRtotal + b3total)
+    
     print("-----------------------------------")       
     print("      RESULTADO DA SIMULAÇÃO       ")
     print("-----------------------------------")
@@ -44,12 +45,14 @@ while True:
     print("Valor inicial investido: {}".format(investir))
     print("Aportes de {} por {} meses".format(mês,aportes))
     print("Valor total investido {}".format(total))
+    
     print("-----------------------------------")  
     print("Valor Bruto: {}".format(valorbruto))
     print("I.R: {}".format(IRtotal))
     print("Taxa da B3: {}".format(b3total))
     print("Valor Liquido: {}".format(valorliquido))
     print("-----------------------------------") 
+    
     opcao = str(input("Deseja realizar outra simulação? s/n: "))
     if opcao == 'n':
         break
