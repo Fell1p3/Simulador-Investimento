@@ -48,7 +48,7 @@ while True:
     
     print("-----------------------------------")  
     print("Valor Bruto: {}".format(valorbruto))
-    print("I.R: {}".format(IRtotal))
+    print("IR: {}".format(IRtotal))
     print("Taxa da B3: {}".format(b3total))
     print("Valor Liquido: {}".format(valorliquido))
     print("-----------------------------------") 
